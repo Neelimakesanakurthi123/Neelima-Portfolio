@@ -6,8 +6,7 @@ export const profile = {
   location: "Andhra Pradesh, India",
   phone: "+91-8179348653",
   email: "neelimakesanakurthi841@gmail.com",
-  // TODO: replace with the exact LinkedIn profile URL (the resume only says "LinkedIn").
-  linkedin: "https://www.linkedin.com/search/results/people/?keywords=Neelima%20Kesanakurthi",
+  linkedin: "https://www.linkedin.com/in/neelima-kesanakurthi-479205369",
   objective:
     "Computer Science undergraduate with a strong foundation in Python, SQL, Object-Oriented Programming, Data Structures and Algorithms, software testing, and Artificial Intelligence. Hands-on experience with software development projects, AI workflows, data processing, and problem solving. Seeking to contribute to Python application development, automation, data solutions, and emerging AI technologies at Accenture.",
 }
