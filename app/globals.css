@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Dark-only by design: the page continues the UFO hero's film-credits palette. */
+:root {
+  --background: #0b0906;
+  --foreground: #e8dcc3;
+  --panel: #13100b;
+  --line: #2a2218;
+  --amber: #f2c879;
+  --ember: #ff9d4d;
+  --muted: #a8926c;
+  --ghost: #4a3c28;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-panel: var(--panel);
+  --color-line: var(--line);
+  --color-amber: var(--amber);
+  --color-ember: var(--ember);
+  --color-muted: var(--muted);
+  --color-ghost: var(--ghost);
+  --font-display: var(--font-bodoni);
+  --font-serif: var(--font-cormorant);
+  --font-mono: var(--font-space-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--amber);
+  color: var(--background);
+}
